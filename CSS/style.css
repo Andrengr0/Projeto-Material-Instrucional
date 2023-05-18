@@ -10,9 +10,6 @@ html, body{
     color: #ffffff;
 }
 
-body{
-    background-color: #00186C;
-}
 
 .container{
     width: 100%;
@@ -35,6 +32,20 @@ h2{
 
 .btn_amarelo{
     background-color: #FFE600;
+    font-weight: bold;
+    border: 0;
+    color: #001E8A;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 180px;
+    height: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.btn_verde{
+    background-color: #00FF19;
+    font-weight: bold;
     border: 0;
     color: #001E8A;
     margin-left: 50%;
@@ -48,10 +59,26 @@ h2{
 
 /*################# Tela Principal #################*/
 
+.img-adolescente{
+    height: 200px;
+    margin-left: 200px;
+    margin-top: -30px;
+}
 
+p{
+  margin-top: -5px;
+}
+
+.footer{
+    font-size: 12px;
+}
 
 
 /*################# Tela Whatsapp ##################*/
+
+
+
+
  
 .video{
     width: 100%;
@@ -59,22 +86,20 @@ h2{
     margin: 0 auto;
 }
 
-.video{
-    height: 90%;
-    background-color: #ffffff;
-    border-radius: 30px;
-    text-align: center;
-}
 
-.content-video{
+.box-video{
     width: 100%;
-    max-width: 900px;
-    height: 90%;
-    background-color: #ccc;
+    height: 220px;
+}
+iframe{
+    width: 100%;
+    height: 220px;
 }
 
 
 .content-quizz{
+    display: none;
+    color: #000;
     width: 100%;
     max-width: 900px;
     padding: 2%;
@@ -85,6 +110,12 @@ h2{
 
 input{
     margin-top: 30px;
+    width: 13px;
+    display: inline-block;
+}
+
+label{
+    display: inline-block;
 }
 
 .btn-responder{
@@ -134,11 +165,12 @@ input{
 
 
   .card {
+    display: none;
+    /* display: flex; */
     width: 190px;
     height: 254px;
     background: #07182E;
     position: relative;
-    display: flex;
     place-content: center;
     place-items: center;
     overflow: hidden;
