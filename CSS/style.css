@@ -10,8 +10,11 @@ html, body{
     color: #ffffff;
 }
 
-.body{
-    max-width: 420px;
+body{
+  width: 100%;
+  max-width: 580px;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 .line{
