@@ -69,5 +69,9 @@ $(()=>{
             left: 0,
             behavior: "smooth",
           });
+
+          $('.btn-responder').on('click', function() {
+          window.location.reload(true);
+          })
     })
 })
